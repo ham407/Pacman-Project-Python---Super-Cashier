@@ -73,7 +73,7 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
 
 
 ## Flowchart
-![flow transaction.drawio (1).png] (https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/1b0a4259f610e16b3ae98d28dd0b14d106097962/images/flow%20transaction.drawio%20(1).png)
+![flow transaction.drawio (1).png](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/flow%20transaction.drawio%20(1).png)
 
 
 ## Penjelasan Codelab
