@@ -126,7 +126,11 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
 .....
 
 ## Kesimpulan
-...
+Sistem kasir ini mengusung konsep _self_service_ dalam mengelola proses transaksi. Menyediakan fungsionalitas untuk melakukan transaksi belanja, termasuk menambahkan, mengupdate, menghapus item dalam transaksi, serta menghitung total harga belanjaan, pembayaran dan kembalian. Program ini dirancang untuk berinteraksi dengan pengguna melalui _interface_ teks di terminal. Sebagaimana konsep _self_service,_ user dapat menggunakan menu yang disediakan untuk melakukan operasi yang diinginkan. Dengan ini membantu user dapat dengan mudah belanja di supermarket tanpa harus datang langsung ke supermarket.
 
 ## Perbaikan Yang Diharapkan
-...
+Ada beberapa poin yang diharapkan untuk pengembangan sistem kedepannya, yaitu:
+- **Database:** Menyediakan database barang/item yang disediakan oleh supermarket
+- **Manajemen Inventori**: Menambahkan fungsionalitas manajemen inventori untuk melacak stok barang, mengelola perubahan harga, dan memberikan pemberitahuan ketika stok habis.
+- **Autentikasi Pengguna**: Menambah fitur autentikasi user untuk mengelola transaksi hanya oleh pengguna yang terotorisasi. Ini dapat meningkatkan keamanan dan kontrol atas transaksi yang dilakukan.
+- **Pencatatan Transaksi**: Fitur yang lebih lengkap dan terstruktur. Misalnya, menyimpan riwayat transaksi yang menyertakan informasi pembeli, dan mengelompokkan transaksi berdasarkan kategori.
