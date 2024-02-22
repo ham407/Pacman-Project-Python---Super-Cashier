@@ -111,19 +111,105 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
 
 ## Uji Coba Program
 ### Case 1
-.....
+### Menampilkan menu dan memilih aktivitas berdasarkan menu yang tersedia
+
+![Case1](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/Case%201.png)
+
+Menggunakan method `start()` user diminta untuk memasukkan operasi yang diinginkan. Kemudian memberikan input dalam bentuk angka
+
 ### Case 2
-.....
+### Menambah item barang ke dalam daftar belanjaan
+![Case 2](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/Case%202.png)
+
+Menggunakan method `tambah barang` user diminta untuk memasukkan jumlah item barang yang diinginkan. kemudian memberikan input nama barang, jumlah qty, dan harga per masing masing barang
+
+![menampilkan daftar belanja](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/menampilkan%20daftar%20belanja.png)
+
+menampilkan daftar belanja sebelum di update
+
 ### Case 3
-.....
+### update nama barang
+user mengupdate nama barang dengan menggunakan method `update nama barang`
+![Case 3](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/Case%203.png)
+user diminta memasukkan nama barang yang akan diganti menjadi nama barang baru
+
+![menampilkan nama barang baru](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/Menampilkan%20daftar%20belanja%20setelah%20update%20nama%20barang.png)
+tampilan nama barang setelah di update
+
 ### Case 4
-.....
+### update jumlah barang
+data sebelum update jumlah barang 
+![sebelum update jumlah barang](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/sebelum%20update%20qty.png)
+
+proses data update jumlah barang
+![proses update jumlah barang](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/sebelum%20update%20qty.png)
+
+user dapat menggunakan method `update jumlah barang` untuk mengupdate jumlah barang yang diinginkan
+
+data setelah diupdate
+![setelah diupdate](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/setelah%20update%20qty.png)
+
 ### Case 5
-.....
+### update harga barang
+data sebelum diupdate harga barang
+![data sebelum update harga barang](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/sebelum%20update%20harga.png)
+
+proses update harga barang
+![proses update harga barang](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/Proses%20update%20harga.png)
+
+user menggunakan method `update harga barang` untuk mengupdate harga barang yang diinginkan
+
+setelah update harga barang
+![data setelah update barang](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/setelah%20update%20harga.png)
+
 ### Case 6
-.....
+### Hapus barang
+data sebelum dihapus
+![sebelum hapus data](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/setelah%20update%20harga.png)
+
+proses hapus 
+![proses hapus](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/proses%20hapus%20data.png)
+
+Menggunakan method `update harga barang` untuk mengupdate jumlah harga yang diinginkan
+
+data setelah dihapus
+![setelah dihapus](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/setelah%20hapus%20barang.png)
+
+
+
 ### Case 7
-.....
+### reset saat transaksi
+user dapat membatalkan pembelian dengan method `reset transaksi`
+![reset transaksi](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/reset%20transaction.png)
+
+### Case 8
+### mengecek transaksi
+proses cek transaksi dengan menggunakan method `mengecek transaksi`
+![cek transaksi](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/mengecek%20transaksi.png)
+
+## menampilkan transaksi
+![tampil transaksi](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/setelah%20mengecek%20transaksi.png)
+
+### Case 9
+### total harga
+menampilkan total harga 
+![total harga](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/total%20harga.png)
+
+menggunakan method `total harga` untuk menampilkan total harga yang akan dibayarkan
+
+### Case 10
+### Menampilkan  belanjaan
+![tampil belanja](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/menampilkan%20daftar%20belanja%20keseluruhan.png) 
+
+menggunakan method `menampilkan belanjaan` untuk menampilkan daftar belanjaan
+
+
+### Case 11
+## keluar dari menu
+![keluar](https://github.com/ham407/Pacman-Project-Python---Super-Cashier/blob/main/images/keluar.png)
+
+menggunakan method `keluar` untuk keluar dari display menu
+
 
 ## Kesimpulan
 Sistem kasir ini mengusung konsep _self_service_ dalam mengelola proses transaksi. Menyediakan fungsionalitas untuk melakukan transaksi belanja, termasuk menambahkan, mengupdate, menghapus item dalam transaksi, serta menghitung total harga belanjaan, pembayaran dan kembalian. Program ini dirancang untuk berinteraksi dengan pengguna melalui _interface_ teks di terminal. Sebagaimana konsep _self_service,_ user dapat menggunakan menu yang disediakan untuk melakukan operasi yang diinginkan. Dengan ini membantu user dapat dengan mudah belanja di supermarket tanpa harus datang langsung ke supermarket.
