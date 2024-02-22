@@ -78,8 +78,8 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
 
 ## Penjelasan Codelab
 * `Transaction()` : 
-* `add_item()` : Method ini diguakan untuk menambahkan item baru ke dalam transaksi. Parameter `name` adalah nama item, `qty` adalah jumlah item, dan `price` adalah harga per item. Item baru akan disimpan ke dalam list `items`
-* `update_item_name()` : Method ini digunakan untuk mengupdate 
+* `add_item()` : Method ini digunakan untuk menambahkan item baru ke dalam transaksi. Parameter `name` adalah nama item, `qty` adalah jumlah item, dan `price` adalah harga per item. Item baru akan disimpan ke dalam list `items`
+* `update_item_name()` : Method ini digunakan untuk mengupdate nama barang
 * `update_item_qty()` : Method ini digunakan untuk mengupdate jumlah item untuk item yang sudah ada di dalam transaksi. Parameter `name` adalah nama item yang akan diupdate jumlahnya, dan `new_qty` adalah jumlah item baru. Method ini akan mencari item dengan nama yang sesuai dalam list `items` dan mengupdate jumlahnya.
 * `update_item_price()` : Method ini digunakan untuk mengupdate harga per item untuk item yang sudah ada dalam transaksi. Parameter `name` adalah item yang akan diupdate harganya, dan `new_price` adalah harga baru yang akan digunakan. Method ini akan mencari item dengan nama yang sesuai dala list `items` dan memperbarui harga item nya.
 * `delete_item()` : Method ini digunakan untuk menghapus item dari transaksi berdasarkan nama item. Parameter `name` adalah nama item yang akan dihapus. Method ini akan mencari item dengan nama yang sesuai dalam list `items` dan menghapusnya dari transaksi.
