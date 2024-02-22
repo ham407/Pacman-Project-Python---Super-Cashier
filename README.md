@@ -92,16 +92,22 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
 * `start()` : Method ini berguna untuk menerima masukkan input dari pengguna ketika hendak memilih menu yang ada di `display_menu()` dan memanggil method berdasarkan operasi yang dipilih.
 
 ## Alur Program
-1. User menambahkan item dengan menginputkan jumlah barang yang diinginkan
-2. input nama barang,jumlah barang,harga barang
-3. user mau menampilkan daftar belanja dapat menggunakan tampilkan belanjaan
-4. apabila user ingin menambahkan barang dapat menggunakan  tambah barang
-6. jika terjadi kesalahan input, user dapat mengupdate nama barang, jumlah qty, dan harga barang
-7. apabila  ingin menghapus barang, user dapat melakukan delete item
-8. jika user ingin menghapus semua transaksi yang ada, dapat memilih reset transaction
-9. jika user ingin mengecek total belanja user dapat memilih mengecek transaksi
-10. untuk menampilkan total harga yang dibayarkan user dapat memilih menu total harga
-11. jika user sudah selesai berbelanja, user dapat memilih menu  keluar. 
+1. User dihadapkan dengan tampilan menu dan memilih aktivitas berdasarkan menu yang tersedia
+2. user menambahkan item dengan memilih menu `tambah item`
+3. user  melakukan input jumlah barang yang ingin ditambahkan
+4. user  melakukan input nama barang,jumlah barang,harga barang yang diinginkan
+6. user dapat menampilkan daftar belanja dengan menggunakan `tampilkan belanjaan`
+   - menampilkan daftar belanjaan dalam bentuk tabel
+   - menampilkan total harga 
+7. user dapat menambahkan barang dengan menggunakan `tambah barang`
+   - input "nama barang yang ingin ditambahkan"
+8. jika terjadi kesalahan input, user dapat `mengupdate nama barang, jumlah qty, dan harga barang`
+9. jika user ingin membatalkan membeli item, user dapat melakukan `hapus item`
+ - hapus item 1
+ - `reset transaction`(menghapus seluruh item)   
+10. jika ingin mengecek pesanan sudah sesuai atau belum, user dapat memilih menu `mengecek transaksi`
+11. untuk menampilkan total harga yang dibayarkan user dapat memilih menu `total harga`
+12. jika user sudah selesai berbelanja, user dapat memilih menu `keluar`
 
 ## Uji Coba Program
 ### Case 1
