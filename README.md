@@ -57,8 +57,23 @@ Jika ada yang berbelanja, begini journet Customer dalam membantu orang yang berl
 
 Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menambahkan fitur yang lain apabila masih terdapat fitur yang belum tercover dalam sistem tersebut.
 
+### Implementasi Materi
+1. Primitive Data Structure
+2. Boolean
+3. Nested Branching
+4. Composite Data structure
+5. Looping
+6. Function
+7. Docstring
+8. modular code
+9. OOP (class dan method)
+10. Inheritance
+11. GIT
+12. Try, Except dan Raise
+
+
 ## Flowchart
-(gambar flowchart)
+
 
 ## Penjelasan Codelab
 * `Transaction()` : 
