@@ -1,7 +1,7 @@
-# Pacman-Project-Python---Super-Cashier
+di# Pacman-Project-Python---Super-Cashier
 
 ## **Background Project**
-Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana untuk melakukan prerbaikan proses bisni, yaitu Andi akan membuat sistem kasir yang *self-service* di supermarket miliknya. Sehingga customer bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur yang lain.
+Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana untuk melakukan perbaikan proses bisnnis yaitu Andi akan membuat sistem kasir yang *self-service* di supermarket miliknya. Sehingga customer bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur yang lain.
 
 Sehingga customer yang tidak berada di kota tersebut bisa membeli barang dari supermarket tersebut. Setelah Andi melakukan riset, ternyata Andi memiliki masalah, yaitu Andi membutuhkan Programmer membuatkan fitur-fitur agar bisa sistem kasir *self-service* di supermarket tersebut bisa berjalan dengan lancar.
 
