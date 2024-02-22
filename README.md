@@ -78,18 +78,18 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
 
 ## Penjelasan Codelab
 * `Transaction()` : 
-* `add_item()` :
-* `update_item_name()` :
-* `update_item_qty()` :
-* `update_item_price()` :
-* `delete_item()` :
-* `reset_transaction()` :
-* `check_order()` :
-* `total_price` :
-* `display_transaction()` :
-* `calculate_change()` :
-* `display_menu()` :
-* `start()` :
+* `add_item()` : Method ini diguakan untuk menambahkan item baru ke dalam transaksi. Parameter `name` adalah nama item, `qty` adalah jumlah item, dan `price` adalah harga per item. Item baru akan disimpan ke dalam list `items`
+* `update_item_name()` : Method ini digunakan untuk mengupdate 
+* `update_item_qty()` : Method ini digunakan untuk mengupdate jumlah item untuk item yang sudah ada di dalam transaksi. Parameter `name` adalah nama item yang akan diupdate jumlahnya, dan `new_qty` adalah jumlah item baru. Method ini akan mencari item dengan nama yang sesuai dalam list `items` dan mengupdate jumlahnya.
+* `update_item_price()` : Method ini digunakan untuk mengupdate harga per item untuk item yang sudah ada dalam transaksi. Parameter `name` adalah item yang akan diupdate harganya, dan `new_price` adalah harga baru yang akan digunakan. Method ini akan mencari item dengan nama yang sesuai dala list `items` dan memperbarui harga item nya.
+* `delete_item()` : Method ini digunakan untuk menghapus item dari transaksi berdasarkan nama item. Parameter `name` adalah nama item yang akan dihapus. Method ini akan mencari item dengan nama yang sesuai dalam list `items` dan menghapusnya dari transaksi.
+* `reset_transaction()` : Method ini digunakan untuk menghapus semua item dalam transaksi dan mengembalikan transaksi ke keadaan awal dalam list `items` yang kosong.
+* `check_order()` : Method ini digunakan untuk memeriksa apakah transaksi sudah benar atau terdapat kesalahan input data. Method ini akan menelusuri setiap item dalam transaksi dan mencetak pesan kesalahan jika terdapat item dengan data yang kurang lengkap.
+* `total_price` : Method ini digunakan untuk menghitung total harga belanjaan sebelum diskon. Methid ini akan mengalikan jumlah item dengan harga per item untuk setiap item dalam transaksi, kemudian menambahkan semua hasilnya. Method ini juga menampilkan diskon yang diperoleh berdasarkan total belanjaannya.
+* `display_transaction()` : Method ini digunakan untuk menampilkan detail transaksi belanja dalam format tabular. Method ini akan mencetak nama item, jumlah item, harga per item, dan total harga untuk setiap item dalam transaksi.
+* `calculate_change()` : Method ini digunakan untuk menghitung kembalian yang harus diberikan kepada pelanggan berdasarkan jumlah uang yang dibayarkan dan total harga belanjaan. Method ini meminta pengguna memasukkan jumlah uang yang dibayarkan dan menghitung kembalian berdasarkan total belanjaan. Jika jumlah uang yang dibayarkan tidak mencukupi, method akan mencetak pesan kesalahan.
+* `display_menu()` : Method ini akan menampilkan menu program untuk setiap proses yang diinginkan.
+* `start()` : Method ini berguna untuk menerima masukkan input dari pengguna ketika hendak memilih menu yang ada di `display_menu()` dan memanggil method berdasarkan operasi yang dipilih.
 
 ## Alur Program
 1. User ...
