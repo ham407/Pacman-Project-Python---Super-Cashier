@@ -103,7 +103,7 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
    - Menampilkan daftar belanjaan dalam bentuk tabel
    - Menampilkan total harga
    - Menampilkan diskon, jika total belanjaan memenuhi kriteria diskon.
-7. Jika user berubah pikiran, user dapat melakuakn `2. Udate Nama Barang`, `3. Update Jumlah Qty`, dan `4. Update Harga Barang`
+7. Jika user berubah pikiran, user dapat melakukan `2. Udate Nama Barang`, `3. Update Jumlah Qty`, dan `4. Update Harga Barang`
 8. Jika user ingin membatalkan pembelian salah satu item, user dapat melakukan `hapus item` dengan menuliskan item yang ingin dihapus dari daftar belanjaan menggunakan menu `6. Reset Transaksi` 
 9. Jika ingin mengecek pesanan sudah sesuai atau belum, user dapat memilih menu `7. Cek Transaksi`
 10. Untuk menampilkan total harga yang dibayarkan user dapat memilih menu `8. Tampilkan Total Belanjaan`
