@@ -1,15 +1,18 @@
-di# Pacman-Project-Python---Super-Cashier
+# Pacman-Project-Python---Super-Cashier
 
 ## **Background Project**
-Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana untuk melakukan perbaikan proses bisnis yaitu Andi akan membuat sistem kasir yang *self-service* di supermarket miliknya. Sehingga customer bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur yang lain.
+Andi, seorang pemilik supermarket besar di salah satu kota di Indonesia, memiliki visi untuk meningkatkan efisiensi dalam proses bisnisnya. Salah satu langkah yang diambil adalah dengan merancang sistem kasir self-service di supermarket miliknya. Tujuan utamanya adalah memberikan pengalaman belanja yang lebih cepat dan nyaman bagi pelanggan, di mana pelanggan dapat secara langsung memasukkan item yang dibeli, jumlahnya, harga, dan menggunakan fitur-fitur tambahan lainnya.
 
-Sehingga customer yang tidak berada di kota tersebut bisa membeli barang dari supermarket tersebut. Setelah Andi melakukan riset, ternyata Andi memiliki masalah, yaitu Andi membutuhkan Programmer membuatkan fitur-fitur agar bisa sistem kasir *self-service* di supermarket tersebut bisa berjalan dengan lancar.
+Selain meningkatkan pengalaman pelanggan lokal, implementasi sistem kasir self-service juga membuka peluang bagi pelanggan di luar kota untuk berbelanja secara online dari supermarket tersebut. Namun, dalam proses perancangannya, Andi menghadapi tantangan besar. Dia menyadari bahwa untuk mewujudkan sistem kasir self-service yang efisien dan berjalan lancar, diperlukan keterlibatan seorang Programmer yang memiliki kemampuan untuk mengembangkan fitur-fitur kunci serta memastikan integrasi yang sempurna antara berbagai komponen dalam sistem tersebut.
 
-## Object & Feature Requuirements
-### Object
-Akhirnya Andi meminta tolong kepada teman-teman selaku programmer Python untuk membuatkan program yang menyelesaikan problem tersebut.
+## Objectives & Feature Requuirements
+### Objectives
+1. Meningkatkan efisiensi proses pembayaran di supermarket dengan memperkenalkan sistem kasir self-service.
+2. Menyediakan pengalaman belanja yang lebih cepat dan nyaman bagi pelanggan.
+3. Memungkinkan pelanggan untuk melakukan pembelian secara mandiri dengan memasukkan item yang dibeli, jumlahnya, dan harga secara langsung.
+4. Memungkinkan pelanggan dari luar kota untuk melakukan pembelian secara online melalui sistem kasir self-service.
 
-Jika ada yang berbelanja, begini journey Customer dalam membantu orang yang berlanja tersebut.
+Jika ada yang berbelanja, seperti ini journey Customer dalam membantu orang yang berlanja tersebut.
 ### Feature
 
 1. Customer membuat ID transaksi customer berikut:
@@ -93,21 +96,18 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
 
 ## Alur Program
 1. User dihadapkan dengan tampilan menu dan memilih aktivitas berdasarkan menu yang tersedia
-2. user menambahkan item dengan memilih menu `tambah item`
-3. user  melakukan input jumlah barang yang ingin ditambahkan
-4. user  melakukan input nama barang,jumlah barang,harga barang yang diinginkan
-6. user dapat menampilkan daftar belanja dengan menggunakan `tampilkan belanjaan`
-   - menampilkan daftar belanjaan dalam bentuk tabel
-   - menampilkan total harga 
-7. user dapat menambahkan barang dengan menggunakan `tambah barang`
-   - input "nama barang yang ingin ditambahkan"
-8. jika terjadi kesalahan input, user dapat `mengupdate nama barang, jumlah qty, dan harga barang`
-9. jika user ingin membatalkan membeli item, user dapat melakukan `hapus item`
- - hapus item 1
- - `reset transaction`(menghapus seluruh item)   
-10. jika ingin mengecek pesanan sudah sesuai atau belum, user dapat memilih menu `mengecek transaksi`
-11. untuk menampilkan total harga yang dibayarkan user dapat memilih menu `total harga`
-12. jika user sudah selesai berbelanja, user dapat memilih menu `keluar`
+2. User menambahkan item dengan memilih menu `1. Tambah Item`.
+3. User melakukan input jumlah barang yang ingin ditambahkan.
+4. User melakukan input nama barang,jumlah barang,harga barang yang diinginkan sebanyak jumlah item yang ingin ditambahkan.
+5. User dapat melihat daftar belanja dengan menggunakan `8. Tampilkan Total Belanjaan`
+   - Menampilkan daftar belanjaan dalam bentuk tabel
+   - Menampilkan total harga
+   - Menampilkan diskon, jika total belanjaan memenuhi kriteria diskon.
+7. Jika user berubah pikiran, user dapat melakuakn `2. Udate Nama Barang`, `3. Update Jumlah Qty`, dan `4. Update Harga Barang`
+8. Jika user ingin membatalkan pembelian salah satu item, user dapat melakukan `hapus item` dengan menuliskan item yang ingin dihapus dari daftar belanjaan menggunakan menu `6. Reset Transaksi` 
+9. Jika ingin mengecek pesanan sudah sesuai atau belum, user dapat memilih menu `7. Cek Transaksi`
+10. Untuk menampilkan total harga yang dibayarkan user dapat memilih menu `8. Tampilkan Total Belanjaan`
+11. Jika user sudah selesai berbelanja, user dapat memilih menu `0. Keluar`
 
 ## Uji Coba Program
 ### Case 1
@@ -214,7 +214,7 @@ menggunakan method `keluar` untuk keluar dari display menu
 ## Kesimpulan
 Sistem kasir ini mengusung konsep _self_service_ dalam mengelola proses transaksi. Menyediakan fungsionalitas untuk melakukan transaksi belanja, termasuk menambahkan, mengupdate, menghapus item dalam transaksi, serta menghitung total harga belanjaan, pembayaran dan kembalian. Program ini dirancang untuk berinteraksi dengan pengguna melalui _interface_ teks di terminal. Sebagaimana konsep _self_service,_ user dapat menggunakan menu yang disediakan untuk melakukan operasi yang diinginkan. Dengan ini membantu user dapat dengan mudah belanja di supermarket tanpa harus datang langsung ke supermarket.
 
-## Perbaikan Yang Diharapkan
+## Pengembangan Yang Diharapkan
 Ada beberapa poin yang diharapkan untuk pengembangan sistem kedepannya, yaitu:
 - **Database:** Menyediakan database barang/item yang disediakan oleh supermarket
 - **Manajemen Inventori**: Menambahkan fungsionalitas manajemen inventori untuk melacak stok barang, mengelola perubahan harga, dan memberikan pemberitahuan ketika stok habis.
