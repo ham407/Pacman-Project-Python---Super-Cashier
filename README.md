@@ -9,7 +9,7 @@ Sehingga customer yang tidak berada di kota tersebut bisa membeli barang dari su
 ### Object
 Akhirnya Andi meminta tolong kepada teman-teman selaku programmer Python untuk membuatkan program yang menyelesaikan problem tersebut.
 
-Jika ada yang berbelanja, begini journet Customer dalam membantu orang yang berlanja tersebut.
+Jika ada yang berbelanja, begini journey Customer dalam membantu orang yang berlanja tersebut.
 ### Feature
 
 1. Customer membuat ID transaksi customer berikut:
@@ -31,7 +31,7 @@ Jika ada yang berbelanja, begini journet Customer dalam membantu orang yang berl
   c. Update harga item menggunakan method:
   `update_item_price(<nama_item>, <update_harga_item>)`
 
-4. Jika bata membeli item belanjaan, Customer bisa melakukan:
+4. Jika batal membeli item belanjaan, Customer bisa melakukan:
 
   a. Menghapus salah satu item dari nama item dengan method `delete_item(<nama_item>)`
 
@@ -39,7 +39,7 @@ Jika ada yang berbelanja, begini journet Customer dalam membantu orang yang berl
 
   b. Langsung menghapus semua transaksi atau reset transaksi dengan method `reset_transaction()`
 
-5.   Customer sudah selesai dengan berbelanja online nya, tetapi Customer masih ragu apakah harga barang dan nama barang yang diinput sudah benar. Bisa saja Customer melakukan kesalahan dalam melakukan input, semisalh sudah melakukan input harga barang tetapi lupa untuk input nama barang. Andi bisa menggunakan method `check_order()`. Terdapat ketentuan:
+5.   Customer sudah selesai dengan berbelanja online nya, tetapi Customer masih ragu apakah harga barang dan nama barang yang diinput sudah benar. Bisa saja Customer melakukan kesalahan dalam melakukan input, semisal sudah melakukan input harga barang tetapi lupa untuk input nama barang. Andi bisa menggunakan method `check_order()`. Terdapat ketentuan:
 
   a. Akan mengeluarkan pesan "**Pemesanan sudah benar**" *(bebas bisa dengan message yang lain)* jika tidak ada kesalahan input.
 
@@ -85,7 +85,7 @@ Andi juga memberikan pesan kepada teman-teman kalau diberi kebebasan untuk menam
 * `delete_item()` : Method ini digunakan untuk menghapus item dari transaksi berdasarkan nama item. Parameter `name` adalah nama item yang akan dihapus. Method ini akan mencari item dengan nama yang sesuai dalam list `items` dan menghapusnya dari transaksi.
 * `reset_transaction()` : Method ini digunakan untuk menghapus semua item dalam transaksi dan mengembalikan transaksi ke keadaan awal dalam list `items` yang kosong.
 * `check_order()` : Method ini digunakan untuk memeriksa apakah transaksi sudah benar atau terdapat kesalahan input data. Method ini akan menelusuri setiap item dalam transaksi dan mencetak pesan kesalahan jika terdapat item dengan data yang kurang lengkap.
-* `total_price` : Method ini digunakan untuk menghitung total harga belanjaan sebelum diskon. Methid ini akan mengalikan jumlah item dengan harga per item untuk setiap item dalam transaksi, kemudian menambahkan semua hasilnya. Method ini juga menampilkan diskon yang diperoleh berdasarkan total belanjaannya.
+* `total_price` : Method ini digunakan untuk menghitung total harga belanjaan sebelum diskon. Method ini akan mengalikan jumlah item dengan harga per item untuk setiap item dalam transaksi, kemudian menambahkan semua hasilnya. Method ini juga menampilkan diskon yang diperoleh berdasarkan total belanjaannya.
 * `display_transaction()` : Method ini digunakan untuk menampilkan detail transaksi belanja dalam format tabular. Method ini akan mencetak nama item, jumlah item, harga per item, dan total harga untuk setiap item dalam transaksi.
 * `calculate_change()` : Method ini digunakan untuk menghitung kembalian yang harus diberikan kepada pelanggan berdasarkan jumlah uang yang dibayarkan dan total harga belanjaan. Method ini meminta pengguna memasukkan jumlah uang yang dibayarkan dan menghitung kembalian berdasarkan total belanjaan. Jika jumlah uang yang dibayarkan tidak mencukupi, method akan mencetak pesan kesalahan.
 * `display_menu()` : Method ini akan menampilkan menu program untuk setiap proses yang diinginkan.
